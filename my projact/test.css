@@ -1,0 +1,67 @@
+.navbar{
+display:flex;
+justify-content:center;
+background:rgba(0,0,0,0.25);
+backdrop-filter: blur(10px);
+padding:15px 30px;
+font-family:Poppins, sans-serif;
+}
+
+.navdiv{
+display:flex;
+justify-content:space-between;
+align-items:center;
+width:80%;
+}
+
+.logo a{
+font-size:26px;
+font-weight:700;
+color:white;
+text-decoration:none;
+}
+
+ul{
+display:flex;
+align-items:center;
+}
+
+li{
+list-style:none;
+}
+
+li a{
+color:white;
+text-decoration:none;
+margin-right:25px;
+font-size:16px;
+transition:0.2s;
+}
+
+li a:hover{
+color:#ffd369;
+}
+
+button{
+border:none;
+padding:8px 15px;
+border-radius:8px;
+cursor:pointer;
+margin-left:10px;
+}
+
+
+.login{
+background:#6366f1;
+color:white;
+}
+
+.signup{
+background:#22c55e;
+color:white;
+}
+
+button:hover{
+transform:scale(1.05);
+transition:0.2s;
+}
